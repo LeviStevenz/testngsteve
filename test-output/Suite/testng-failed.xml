@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <groups>
+      <run>
+        <include name="default"/>
+        <include name="sanity"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="org.flipkart.stepdefinition.Flipkart">
+        <methods>
+          <include name="search"/>
+          <include name="beforeTime"/>
+          <include name="afterTime"/>
+          <include name="home"/>
+          <include name="button"/>
+        </methods>
+      </class> <!-- org.flipkart.stepdefinition.Flipkart -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
